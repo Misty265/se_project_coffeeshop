@@ -22,13 +22,15 @@
 }
 
 .menu__subtitle {
-  min-width: 780px;
+  max-width: 780px;
   margin: 24px auto 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu__cards {
@@ -37,4 +39,6 @@
   flex-wrap: wrap;
   gap: 100px;
   list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
 }

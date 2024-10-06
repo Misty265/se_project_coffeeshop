@@ -6,8 +6,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   height: 800px;
+  z-index: 1;
+  padding: 0 40px 80px;
 }
 
 .header__title {
@@ -50,12 +51,13 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
   margin-top: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -63,21 +65,14 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+  justify-content: space-between;
+}
+
+.header__paragraph {
+  margin: 0;
 }
 
 .header__paragraph_content_hours {
   display: flex;
-  flex-direction: row;
-  position: relative;
-  bottom: 40px;
-  left: 80px;
-  margin: 0;
-}
-
-.header__paragraph_content_address {
-  display: flex;
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
-  margin: 0;
+  flex-direction: column;
 }

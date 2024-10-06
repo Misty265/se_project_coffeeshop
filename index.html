@@ -8,7 +8,7 @@
     <meta name="keywords" content="coffee, coffee shop, espresso" />
     <meta name="description" content="My first written webpage from scratch!" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="favicon" href="./favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,16 +49,12 @@
           src="./images/inside_coffee_shop.png"
         />
         <div class="header__footer">
-          <p class="header__paragraph header__paragraph_content_hours">
-            Hours:
-          </p>
-          <p class="header__paragraph header__paragraph_content_hours">
-            Monday - Friday (10:00 - 19:00)
-          </p>
-          <p class="header__paragraph header__paragraph_content_hours">
-            Saturday - Sunday (11:00 - 18:00)
-          </p>
-          <p class="header__paragraph header__paragraph_content_address">
+          <div class="header__paragraph_content_hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -137,7 +133,7 @@
                 />
               </label>
               <button type="submit" class="form__button">Book a table</button>
-              <label class="form__input"
+              <label class="form__label form__label_type_checkbox"
                 ><input type="checkbox" class="form__checkbox" />I agree with
                 the terms of use.</label
               >
