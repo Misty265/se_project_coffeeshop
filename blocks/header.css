@@ -8,7 +8,7 @@
   background-size: cover;
   height: 800px;
   z-index: 1;
-  padding: 30px 40px 80px;
+  padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
 }
@@ -17,7 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 729px;
-  margin: 183px 0 0 80px;
+  margin: 183px 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -71,6 +71,7 @@
   line-height: 20px;
   color: #6f6f6f;
   justify-content: space-between;
+  align-items: end;
 }
 
 .header__paragraph {
